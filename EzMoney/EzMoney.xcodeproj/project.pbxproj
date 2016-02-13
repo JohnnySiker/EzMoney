@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		66042300E85D42D0D7C20A26 /* Pods_EzMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC3490F403B5EE239F181BF /* Pods_EzMoney.framework */; };
 		9F90469F1C6F9B2C00B3136E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */; };
-		9F9046A11C6F9B2C00B3136E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046A01C6F9B2C00B3136E /* ViewController.swift */; };
+		9F9046A11C6F9B2C00B3136E /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046A01C6F9B2C00B3136E /* WelcomeController.swift */; };
 		9F9046A41C6F9B2D00B3136E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A21C6F9B2D00B3136E /* Main.storyboard */; };
 		9F9046A61C6F9B2D00B3136E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A51C6F9B2D00B3136E /* Assets.xcassets */; };
 		9F9046A91C6F9B2D00B3136E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A71C6F9B2D00B3136E /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		838AA87668CF09A45F55ADA5 /* Pods-EzMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzMoney/Pods-EzMoney.debug.xcconfig"; sourceTree = "<group>"; };
 		9F90469B1C6F9B2C00B3136E /* EzMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F9046A01C6F9B2C00B3136E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F9046A01C6F9B2C00B3136E /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		9F9046A31C6F9B2D00B3136E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F9046A51C6F9B2D00B3136E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9046A81C6F9B2D00B3136E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */,
-				9F9046A01C6F9B2C00B3136E /* ViewController.swift */,
+				9F9046A01C6F9B2C00B3136E /* WelcomeController.swift */,
 				9F9046A21C6F9B2D00B3136E /* Main.storyboard */,
 				9F9046A51C6F9B2D00B3136E /* Assets.xcassets */,
 				9F9046A71C6F9B2D00B3136E /* LaunchScreen.storyboard */,
@@ -331,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9046A11C6F9B2C00B3136E /* ViewController.swift in Sources */,
+				9F9046A11C6F9B2C00B3136E /* WelcomeController.swift in Sources */,
 				9F90469F1C6F9B2C00B3136E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
