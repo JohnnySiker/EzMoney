@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Welcome Controller-->
@@ -17,44 +18,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOf-su-PPf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EzMoney-background" translatesAutoresizingMaskIntoConstraints="NO" id="QOf-su-PPf">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erK-eo-weA">
-                                <rect key="frame" x="220" y="36" width="161" height="157"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EzMoney-welcome-logo" translatesAutoresizingMaskIntoConstraints="NO" id="erK-eo-weA">
+                                <rect key="frame" x="230.5" y="70" width="140" height="180.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="erK-eo-weA" secondAttribute="height" multiplier="38:49" id="XZz-iW-KPh"/>
+                                    <constraint firstAttribute="width" constant="140" id="qxk-Md-RNj"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-NQ-Mii">
-                                <rect key="frame" x="220" y="240" width="180" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-NQ-Mii">
+                                <rect key="frame" x="210" y="300" width="180" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="07T-ks-tmU"/>
+                                    <constraint firstAttribute="width" constant="180" id="BVh-6r-Ttz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Facebook">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w6-5a-zMo">
-                                <rect key="frame" x="220" y="294" width="180" height="40"/>
-                                <color key="backgroundColor" red="0.15686274509803921" green="0.55294117647058827" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
-                                <state key="normal" title="Twitter">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adx-jA-g0w">
-                                <rect key="frame" x="220" y="357" width="180" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adx-jA-g0w">
+                                <rect key="frame" x="210" y="420" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kbg-8u-Uep"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
                                 <state key="normal" title="Entrar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDP-29-ORx">
-                                <rect key="frame" x="206" y="550" width="209" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDP-29-ORx">
+                                <rect key="frame" x="242" y="548" width="115" height="32"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                 <state key="normal" title="No tienes cuenta?">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w6-5a-zMo">
+                                <rect key="frame" x="210" y="360" width="180" height="40"/>
+                                <color key="backgroundColor" red="0.15686274509803921" green="0.55294117647058827" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="W1x-AS-FfY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QOf-su-PPf" secondAttribute="bottom" id="9Pf-VX-Tez"/>
+                            <constraint firstItem="Adx-jA-g0w" firstAttribute="top" secondItem="9w6-5a-zMo" secondAttribute="bottom" constant="20" id="GkX-AA-68E"/>
+                            <constraint firstItem="erK-eo-weA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Iae-Pa-Mgy"/>
+                            <constraint firstItem="PfZ-NQ-Mii" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IpF-kS-VFd"/>
+                            <constraint firstItem="9w6-5a-zMo" firstAttribute="leading" secondItem="PfZ-NQ-Mii" secondAttribute="leading" id="JO4-hR-D5a"/>
+                            <constraint firstItem="Adx-jA-g0w" firstAttribute="leading" secondItem="PfZ-NQ-Mii" secondAttribute="leading" id="MZr-D6-ZmC"/>
+                            <constraint firstItem="9w6-5a-zMo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="UAc-PW-Uzm"/>
+                            <constraint firstItem="9w6-5a-zMo" firstAttribute="trailing" secondItem="PfZ-NQ-Mii" secondAttribute="trailing" id="UJz-mN-lq9"/>
+                            <constraint firstItem="QOf-su-PPf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WzU-bm-o8i"/>
+                            <constraint firstItem="QDP-29-ORx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cib-vR-fYD"/>
+                            <constraint firstItem="9w6-5a-zMo" firstAttribute="top" secondItem="PfZ-NQ-Mii" secondAttribute="bottom" constant="20" id="j8s-xN-eZn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QDP-29-ORx" secondAttribute="bottom" constant="20" id="llt-pZ-ssS"/>
+                            <constraint firstAttribute="trailing" secondItem="QOf-su-PPf" secondAttribute="trailing" id="mBe-Zo-PX2"/>
+                            <constraint firstItem="Adx-jA-g0w" firstAttribute="trailing" secondItem="PfZ-NQ-Mii" secondAttribute="trailing" id="pDi-GI-o4U"/>
+                            <constraint firstItem="QOf-su-PPf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s6n-UZ-F3U"/>
+                            <constraint firstItem="erK-eo-weA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yWT-DL-d9i"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -62,4 +95,8 @@
             <point key="canvasLocation" x="380" y="322"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="EzMoney-background" width="374" height="667"/>
+        <image name="EzMoney-welcome-logo" width="466" height="598"/>
+    </resources>
 </document>
