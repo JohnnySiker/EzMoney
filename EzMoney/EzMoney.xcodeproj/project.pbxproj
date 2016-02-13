@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F90469F1C6F9B2C00B3136E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */; };
+		9F9046A11C6F9B2C00B3136E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046A01C6F9B2C00B3136E /* ViewController.swift */; };
+		9F9046A41C6F9B2D00B3136E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A21C6F9B2D00B3136E /* Main.storyboard */; };
+		9F9046A61C6F9B2D00B3136E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A51C6F9B2D00B3136E /* Assets.xcassets */; };
+		9F9046A91C6F9B2D00B3136E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A71C6F9B2D00B3136E /* LaunchScreen.storyboard */; };
+		9F9046B41C6F9B2D00B3136E /* EzMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046B31C6F9B2D00B3136E /* EzMoneyTests.swift */; };
+		9F9046BF1C6F9B2D00B3136E /* EzMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046BE1C6F9B2D00B3136E /* EzMoneyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F9046B01C6F9B2D00B3136E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9046931C6F9B2C00B3136E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F90469A1C6F9B2C00B3136E;
+			remoteInfo = EzMoney;
+		};
+		9F9046BB1C6F9B2D00B3136E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9046931C6F9B2C00B3136E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F90469A1C6F9B2C00B3136E;
+			remoteInfo = EzMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F90469B1C6F9B2C00B3136E /* EzMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F9046A01C6F9B2C00B3136E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F9046A31C6F9B2D00B3136E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F9046A51C6F9B2D00B3136E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F9046A81C6F9B2D00B3136E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F9046AA1C6F9B2D00B3136E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9046AF1C6F9B2D00B3136E /* EzMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9046B31C6F9B2D00B3136E /* EzMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzMoneyTests.swift; sourceTree = "<group>"; };
+		9F9046B51C6F9B2D00B3136E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9046BA1C6F9B2D00B3136E /* EzMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9046BE1C6F9B2D00B3136E /* EzMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzMoneyUITests.swift; sourceTree = "<group>"; };
+		9F9046C01C6F9B2D00B3136E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9046981C6F9B2C00B3136E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046AC1C6F9B2D00B3136E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046B71C6F9B2D00B3136E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9046921C6F9B2C00B3136E = {
+			isa = PBXGroup;
+			children = (
+				9F90469D1C6F9B2C00B3136E /* EzMoney */,
+				9F9046B21C6F9B2D00B3136E /* EzMoneyTests */,
+				9F9046BD1C6F9B2D00B3136E /* EzMoneyUITests */,
+				9F90469C1C6F9B2C00B3136E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F90469C1C6F9B2C00B3136E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F90469B1C6F9B2C00B3136E /* EzMoney.app */,
+				9F9046AF1C6F9B2D00B3136E /* EzMoneyTests.xctest */,
+				9F9046BA1C6F9B2D00B3136E /* EzMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F90469D1C6F9B2C00B3136E /* EzMoney */ = {
+			isa = PBXGroup;
+			children = (
+				9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */,
+				9F9046A01C6F9B2C00B3136E /* ViewController.swift */,
+				9F9046A21C6F9B2D00B3136E /* Main.storyboard */,
+				9F9046A51C6F9B2D00B3136E /* Assets.xcassets */,
+				9F9046A71C6F9B2D00B3136E /* LaunchScreen.storyboard */,
+				9F9046AA1C6F9B2D00B3136E /* Info.plist */,
+			);
+			path = EzMoney;
+			sourceTree = "<group>";
+		};
+		9F9046B21C6F9B2D00B3136E /* EzMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9046B31C6F9B2D00B3136E /* EzMoneyTests.swift */,
+				9F9046B51C6F9B2D00B3136E /* Info.plist */,
+			);
+			path = EzMoneyTests;
+			sourceTree = "<group>";
+		};
+		9F9046BD1C6F9B2D00B3136E /* EzMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9046BE1C6F9B2D00B3136E /* EzMoneyUITests.swift */,
+				9F9046C01C6F9B2D00B3136E /* Info.plist */,
+			);
+			path = EzMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F90469A1C6F9B2C00B3136E /* EzMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9046C31C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoney" */;
+			buildPhases = (
+				9F9046971C6F9B2C00B3136E /* Sources */,
+				9F9046981C6F9B2C00B3136E /* Frameworks */,
+				9F9046991C6F9B2C00B3136E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzMoney;
+			productName = EzMoney;
+			productReference = 9F90469B1C6F9B2C00B3136E /* EzMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F9046AE1C6F9B2D00B3136E /* EzMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9046C61C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyTests" */;
+			buildPhases = (
+				9F9046AB1C6F9B2D00B3136E /* Sources */,
+				9F9046AC1C6F9B2D00B3136E /* Frameworks */,
+				9F9046AD1C6F9B2D00B3136E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9046B11C6F9B2D00B3136E /* PBXTargetDependency */,
+			);
+			name = EzMoneyTests;
+			productName = EzMoneyTests;
+			productReference = 9F9046AF1C6F9B2D00B3136E /* EzMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F9046B91C6F9B2D00B3136E /* EzMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9046C91C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyUITests" */;
+			buildPhases = (
+				9F9046B61C6F9B2D00B3136E /* Sources */,
+				9F9046B71C6F9B2D00B3136E /* Frameworks */,
+				9F9046B81C6F9B2D00B3136E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9046BC1C6F9B2D00B3136E /* PBXTargetDependency */,
+			);
+			name = EzMoneyUITests;
+			productName = EzMoneyUITests;
+			productReference = 9F9046BA1C6F9B2D00B3136E /* EzMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9046931C6F9B2C00B3136E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jonathan Velazquez";
+				TargetAttributes = {
+					9F90469A1C6F9B2C00B3136E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9F9046AE1C6F9B2D00B3136E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F90469A1C6F9B2C00B3136E;
+					};
+					9F9046B91C6F9B2D00B3136E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F90469A1C6F9B2C00B3136E;
+					};
+				};
+			};
+			buildConfigurationList = 9F9046961C6F9B2C00B3136E /* Build configuration list for PBXProject "EzMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F9046921C6F9B2C00B3136E;
+			productRefGroup = 9F90469C1C6F9B2C00B3136E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F90469A1C6F9B2C00B3136E /* EzMoney */,
+				9F9046AE1C6F9B2D00B3136E /* EzMoneyTests */,
+				9F9046B91C6F9B2D00B3136E /* EzMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9046991C6F9B2C00B3136E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9046A91C6F9B2D00B3136E /* LaunchScreen.storyboard in Resources */,
+				9F9046A61C6F9B2D00B3136E /* Assets.xcassets in Resources */,
+				9F9046A41C6F9B2D00B3136E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046AD1C6F9B2D00B3136E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046B81C6F9B2D00B3136E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9046971C6F9B2C00B3136E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9046A11C6F9B2C00B3136E /* ViewController.swift in Sources */,
+				9F90469F1C6F9B2C00B3136E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046AB1C6F9B2D00B3136E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9046B41C6F9B2D00B3136E /* EzMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9046B61C6F9B2D00B3136E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9046BF1C6F9B2D00B3136E /* EzMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F9046B11C6F9B2D00B3136E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F90469A1C6F9B2C00B3136E /* EzMoney */;
+			targetProxy = 9F9046B01C6F9B2D00B3136E /* PBXContainerItemProxy */;
+		};
+		9F9046BC1C6F9B2D00B3136E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F90469A1C6F9B2C00B3136E /* EzMoney */;
+			targetProxy = 9F9046BB1C6F9B2D00B3136E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F9046A21C6F9B2D00B3136E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9046A31C6F9B2D00B3136E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F9046A71C6F9B2D00B3136E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9046A81C6F9B2D00B3136E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F9046C11C6F9B2D00B3136E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F9046C21C6F9B2D00B3136E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9046C41C6F9B2D00B3136E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F9046C51C6F9B2D00B3136E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F9046C71C6F9B2D00B3136E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzMoney.app/EzMoney";
+			};
+			name = Debug;
+		};
+		9F9046C81C6F9B2D00B3136E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzMoney.app/EzMoney";
+			};
+			name = Release;
+		};
+		9F9046CA1C6F9B2D00B3136E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzMoney;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F9046CB1C6F9B2D00B3136E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siker.space.EzMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzMoney;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9046961C6F9B2C00B3136E /* Build configuration list for PBXProject "EzMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9046C11C6F9B2D00B3136E /* Debug */,
+				9F9046C21C6F9B2D00B3136E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9046C31C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9046C41C6F9B2D00B3136E /* Debug */,
+				9F9046C51C6F9B2D00B3136E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F9046C61C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9046C71C6F9B2D00B3136E /* Debug */,
+				9F9046C81C6F9B2D00B3136E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F9046C91C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9046CA1C6F9B2D00B3136E /* Debug */,
+				9F9046CB1C6F9B2D00B3136E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9046931C6F9B2C00B3136E /* Project object */;
+}
