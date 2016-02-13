@@ -1,0 +1,6 @@
+framework module Pods_EzMoney {
+  umbrella header "Pods-EzMoney-umbrella.h"
+
+  export *
+  module * { export * }
+}

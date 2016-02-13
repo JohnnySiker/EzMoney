@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66042300E85D42D0D7C20A26 /* Pods_EzMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC3490F403B5EE239F181BF /* Pods_EzMoney.framework */; };
 		9F90469F1C6F9B2C00B3136E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */; };
 		9F9046A11C6F9B2C00B3136E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046A01C6F9B2C00B3136E /* ViewController.swift */; };
 		9F9046A41C6F9B2D00B3136E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9046A21C6F9B2D00B3136E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		838AA87668CF09A45F55ADA5 /* Pods-EzMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzMoney/Pods-EzMoney.debug.xcconfig"; sourceTree = "<group>"; };
 		9F90469B1C6F9B2C00B3136E /* EzMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F90469E1C6F9B2C00B3136E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9046A01C6F9B2C00B3136E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		9F9046BA1C6F9B2D00B3136E /* EzMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9046BE1C6F9B2D00B3136E /* EzMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzMoneyUITests.swift; sourceTree = "<group>"; };
 		9F9046C01C6F9B2D00B3136E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC3490F403B5EE239F181BF /* Pods_EzMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB0CF4C502D5DF9F9B027E9 /* Pods-EzMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzMoney/Pods-EzMoney.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66042300E85D42D0D7C20A26 /* Pods_EzMoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B6FFC6C6A2F3522EFF23D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3490F403B5EE239F181BF /* Pods_EzMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A28C47A32EA92DF2F58E4EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				838AA87668CF09A45F55ADA5 /* Pods-EzMoney.debug.xcconfig */,
+				FDB0CF4C502D5DF9F9B027E9 /* Pods-EzMoney.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F9046921C6F9B2C00B3136E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				9F9046B21C6F9B2D00B3136E /* EzMoneyTests */,
 				9F9046BD1C6F9B2D00B3136E /* EzMoneyUITests */,
 				9F90469C1C6F9B2C00B3136E /* Products */,
+				7A28C47A32EA92DF2F58E4EE /* Pods */,
+				48B6FFC6C6A2F3522EFF23D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9046C31C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoney" */;
 			buildPhases = (
+				067ADB4C0AB973A827421451 /* Check Pods Manifest.lock */,
 				9F9046971C6F9B2C00B3136E /* Sources */,
 				9F9046981C6F9B2C00B3136E /* Frameworks */,
 				9F9046991C6F9B2C00B3136E /* Resources */,
+				D07C19D036420A46C4F8F5DE /* Embed Pods Frameworks */,
+				7294E7A49D638E99712F5260 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067ADB4C0AB973A827421451 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7294E7A49D638E99712F5260 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzMoney/Pods-EzMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07C19D036420A46C4F8F5DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzMoney/Pods-EzMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F9046971C6F9B2C00B3136E /* Sources */ = {
@@ -397,6 +472,7 @@
 		};
 		9F9046C41C6F9B2D00B3136E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838AA87668CF09A45F55ADA5 /* Pods-EzMoney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EzMoney/Info.plist;
@@ -408,6 +484,7 @@
 		};
 		9F9046C51C6F9B2D00B3136E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB0CF4C502D5DF9F9B027E9 /* Pods-EzMoney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EzMoney/Info.plist;
@@ -484,6 +561,7 @@
 				9F9046C51C6F9B2D00B3136E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F9046C61C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +570,7 @@
 				9F9046C81C6F9B2D00B3136E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F9046C91C6F9B2D00B3136E /* Build configuration list for PBXNativeTarget "EzMoneyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +579,7 @@
 				9F9046CB1C6F9B2D00B3136E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
