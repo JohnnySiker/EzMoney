@@ -77,9 +77,6 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="XQl-ze-EQA" kind="presentation" id="mBv-hZ-V84"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDP-29-ORx" customClass="SpringButton" customModule="Spring">
                                 <rect key="frame" x="242" y="548" width="115" height="32"/>
@@ -139,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="380" y="322"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup Controller-->
         <scene sceneID="H5m-ZF-q1y">
             <objects>
-                <viewController id="XQl-ze-EQA" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupController" id="XQl-ze-EQA" customClass="SignupController" customModule="EzMoney" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XJM-i0-x1P"/>
                         <viewControllerLayoutGuide type="bottom" id="1Nj-iu-ELq"/>
@@ -191,9 +188,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="75" y="332" width="250" height="35"/>
-                                </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continuando, aceptas nuestros Terminos y condiciones de privacidad." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6Y-Eg-lzw">
                                 <rect key="frame" x="185" y="547" width="230" height="33"/>
@@ -214,7 +208,9 @@
                             <constraint firstItem="ZEi-N8-H8J" firstAttribute="leading" secondItem="3Is-yV-MIe" secondAttribute="leading" id="bbV-Ab-lkY"/>
                             <constraint firstItem="lTf-gn-ihA" firstAttribute="centerX" secondItem="3Is-yV-MIe" secondAttribute="centerX" id="c8M-rd-c33"/>
                             <constraint firstItem="lTf-gn-ihA" firstAttribute="top" secondItem="XJM-i0-x1P" secondAttribute="bottom" constant="40" id="cSf-VD-IAU"/>
-                            <constraint firstItem="7Yx-eY-f01" firstAttribute="centerY" secondItem="3Is-yV-MIe" secondAttribute="centerY" constant="-50" id="g8e-Jz-inO"/>
+                            <constraint firstItem="7Yx-eY-f01" firstAttribute="centerY" secondItem="3Is-yV-MIe" secondAttribute="centerY" constant="-50" id="g8e-Jz-inO">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-80"/>
+                            </constraint>
                             <constraint firstItem="ZEi-N8-H8J" firstAttribute="top" secondItem="3Is-yV-MIe" secondAttribute="top" id="hah-CM-daN"/>
                             <constraint firstItem="7Yx-eY-f01" firstAttribute="centerX" secondItem="3Is-yV-MIe" secondAttribute="centerX" id="oBa-RI-PA8"/>
                             <constraint firstItem="7Yx-eY-f01" firstAttribute="leading" secondItem="3Is-yV-MIe" secondAttribute="leadingMargin" constant="60" id="p0u-qO-Xp7"/>
@@ -239,10 +235,10 @@
             </objects>
             <point key="canvasLocation" x="380" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Controller-->
         <scene sceneID="F5j-ch-pIy">
             <objects>
-                <viewController id="MUQ-B4-qVo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" id="MUQ-B4-qVo" customClass="LoginController" customModule="EzMoney" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fyb-77-sxR"/>
                         <viewControllerLayoutGuide type="bottom" id="nZV-w4-nJr"/>
